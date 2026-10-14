@@ -1,0 +1,1 @@
+I changed >= to > in makePurchase(). testMakePurchase_balanceEqualToPrice failed because it uses a balance exactly equal to the price, so the purchase was wrongly rejected. The fault was then removed and the tests passed again.
