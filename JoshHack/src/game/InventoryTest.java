@@ -83,7 +83,7 @@ public class InventoryTest {
         inv.add(sword);
         inv.add(shield);
         inv.add(potion);
-        inv.remove(sword);
+        inv.remove(shield);
         inv.add(rock);
 
         assertSame(rock, inv.get(1));

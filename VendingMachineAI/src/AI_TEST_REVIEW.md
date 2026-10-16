@@ -1,18 +1,18 @@
 # AI Test Review
 
 **AI used: Claude** 
-**Transcript: **
+**Link: https://claude.ai/share/39596b2b-0a5e-4a20-8612-4a95d7ac352a **
 
 **Changes made to compile: None**
 
-##Coverage Results
+## Coverage Results
 | Suite | # Tests | Line | Branch |
 |---|---|---|---|
 | Manual (Task 1) | 41 | 100% | 100% |
 | Initial AI | 66 | 100% | 100% |
-| AI after follow-up | 61 | 100% | 100% |
+| AI after follow-up | 68 | 100% | 100% |
 
-##Reflection
+## Reflection
 Overall the AI's tests were better than I expected. They followed Arrange-Act-Assert, had descriptive names, and covered a lot of the same boundary cases I tested in
 Project 2. They also checked side effects, like making sure the item and balance don't change after a failed purchase. The downside was that it made 66 tests compared to my 41, and a lot of them were repetitive. The four invalid code tests ("E", "a", "", "Z") and the negative amount tests could have each been one parameterized test, and a few tests, like checking the constants or calling getBalance() twice, don't really test anything useful.
 
