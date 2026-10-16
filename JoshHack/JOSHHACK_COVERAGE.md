@@ -28,4 +28,4 @@ Nothing in Inventory.java is left uncovered.
 
 One thing I noticed but didn't write a test for: contains(null) returns true whenever the inventory has an empty slot, since empty slots are stored as null. There's no documentation saying if that's intended, so I left it out instead of writing a test that just locks in whatever the code does.
 
-Screenshot: testresults/coverage.png
+Screenshot: testresults/FinalJoshHackResults.png
